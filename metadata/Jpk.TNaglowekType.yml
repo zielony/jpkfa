@@ -1,0 +1,72 @@
+JpkFa\Jpk\TNaglowekType:
+    properties:
+        kodFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: KodFormularza
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getKodFormularza
+                setter: setKodFormularza
+            type: JpkFa\Jpk\TNaglowekType\KodFormularzaAType
+        wariantFormularza:
+            expose: true
+            access_type: public_method
+            serialized_name: WariantFormularza
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getWariantFormularza
+                setter: setWariantFormularza
+            type: string
+        celZlozenia:
+            expose: true
+            access_type: public_method
+            serialized_name: CelZlozenia
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getCelZlozenia
+                setter: setCelZlozenia
+            type: string
+        dataWytworzeniaJPK:
+            expose: true
+            access_type: public_method
+            serialized_name: DataWytworzeniaJPK
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getDataWytworzeniaJPK
+                setter: setDataWytworzeniaJPK
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dataOd:
+            expose: true
+            access_type: public_method
+            serialized_name: DataOd
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getDataOd
+                setter: setDataOd
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        dataDo:
+            expose: true
+            access_type: public_method
+            serialized_name: DataDo
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getDataDo
+                setter: setDataDo
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        kodUrzedu:
+            expose: true
+            access_type: public_method
+            serialized_name: KodUrzedu
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getKodUrzedu
+                setter: setKodUrzedu
+            type: string

@@ -1,0 +1,22 @@
+{
+  "name": "zielony/jpkfa",
+  "description": "Auto-generated library for dealing with JPK_FA files",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Tomek Zielonka",
+      "email": "zielony@users.noreply.github.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JpkFa\\": "src/JpkFa"
+    }
+  },
+  "require": {
+    "goetas-webservices/xsd2php-runtime": "0.*"
+  },
+  "require-dev": {
+    "goetas-webservices/xsd2php": "0.*"
+  }
+}

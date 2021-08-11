@@ -1,0 +1,96 @@
+JpkFa\Jpk\JPK:
+    xml_root_name: JPK
+    xml_root_namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+    properties:
+        naglowek:
+            expose: true
+            access_type: public_method
+            serialized_name: Naglowek
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getNaglowek
+                setter: setNaglowek
+            type: JpkFa\Jpk\JPK\NaglowekAType
+        podmiot1:
+            expose: true
+            access_type: public_method
+            serialized_name: Podmiot1
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getPodmiot1
+                setter: setPodmiot1
+            type: JpkFa\Jpk\JPK\Podmiot1AType
+        faktura:
+            expose: true
+            access_type: public_method
+            serialized_name: Faktura
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getFaktura
+                setter: setFaktura
+            xml_list:
+                inline: true
+                entry_name: Faktura
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            type: array<JpkFa\Jpk\JPK\FakturaAType>
+        fakturaCtrl:
+            expose: true
+            access_type: public_method
+            serialized_name: FakturaCtrl
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getFakturaCtrl
+                setter: setFakturaCtrl
+            type: JpkFa\Jpk\JPK\FakturaCtrlAType
+        fakturaWiersz:
+            expose: true
+            access_type: public_method
+            serialized_name: FakturaWiersz
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getFakturaWiersz
+                setter: setFakturaWiersz
+            xml_list:
+                inline: true
+                entry_name: FakturaWiersz
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            type: array<JpkFa\Jpk\JPK\FakturaWierszAType>
+        fakturaWierszCtrl:
+            expose: true
+            access_type: public_method
+            serialized_name: FakturaWierszCtrl
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getFakturaWierszCtrl
+                setter: setFakturaWierszCtrl
+            type: JpkFa\Jpk\JPK\FakturaWierszCtrlAType
+        zamowienie:
+            expose: true
+            access_type: public_method
+            serialized_name: Zamowienie
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getZamowienie
+                setter: setZamowienie
+            xml_list:
+                inline: true
+                entry_name: Zamowienie
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            type: array<JpkFa\Jpk\JPK\ZamowienieAType>
+        zamowienieCtrl:
+            expose: true
+            access_type: public_method
+            serialized_name: ZamowienieCtrl
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getZamowienieCtrl
+                setter: setZamowienieCtrl
+            type: JpkFa\Jpk\JPK\ZamowienieCtrlAType

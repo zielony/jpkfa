@@ -1,0 +1,52 @@
+JpkFa\Jpk\JPK\StawkiPodatkuAType:
+    properties:
+        stawka1:
+            expose: true
+            access_type: public_method
+            serialized_name: Stawka1
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2016/03/09/03095/'
+            accessor:
+                getter: getStawka1
+                setter: setStawka1
+            type: float
+        stawka2:
+            expose: true
+            access_type: public_method
+            serialized_name: Stawka2
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2016/03/09/03095/'
+            accessor:
+                getter: getStawka2
+                setter: setStawka2
+            type: float
+        stawka3:
+            expose: true
+            access_type: public_method
+            serialized_name: Stawka3
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2016/03/09/03095/'
+            accessor:
+                getter: getStawka3
+                setter: setStawka3
+            type: float
+        stawka4:
+            expose: true
+            access_type: public_method
+            serialized_name: Stawka4
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2016/03/09/03095/'
+            accessor:
+                getter: getStawka4
+                setter: setStawka4
+            type: float
+        stawka5:
+            expose: true
+            access_type: public_method
+            serialized_name: Stawka5
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2016/03/09/03095/'
+            accessor:
+                getter: getStawka5
+                setter: setStawka5
+            type: float

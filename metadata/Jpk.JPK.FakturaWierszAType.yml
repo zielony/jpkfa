@@ -1,0 +1,102 @@
+JpkFa\Jpk\JPK\FakturaWierszAType:
+    properties:
+        p2B:
+            expose: true
+            access_type: public_method
+            serialized_name: P_2B
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP2B
+                setter: setP2B
+            type: string
+        p7:
+            expose: true
+            access_type: public_method
+            serialized_name: P_7
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP7
+                setter: setP7
+            type: string
+        p8A:
+            expose: true
+            access_type: public_method
+            serialized_name: P_8A
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP8A
+                setter: setP8A
+            type: string
+        p8B:
+            expose: true
+            access_type: public_method
+            serialized_name: P_8B
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP8B
+                setter: setP8B
+            type: float
+        p9A:
+            expose: true
+            access_type: public_method
+            serialized_name: P_9A
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP9A
+                setter: setP9A
+            type: float
+        p9B:
+            expose: true
+            access_type: public_method
+            serialized_name: P_9B
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP9B
+                setter: setP9B
+            type: float
+        p10:
+            expose: true
+            access_type: public_method
+            serialized_name: P_10
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP10
+                setter: setP10
+            type: float
+        p11:
+            expose: true
+            access_type: public_method
+            serialized_name: P_11
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP11
+                setter: setP11
+            type: float
+        p11A:
+            expose: true
+            access_type: public_method
+            serialized_name: P_11A
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP11A
+                setter: setP11A
+            type: float
+        p12:
+            expose: true
+            access_type: public_method
+            serialized_name: P_12
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getP12
+                setter: setP12
+            type: string

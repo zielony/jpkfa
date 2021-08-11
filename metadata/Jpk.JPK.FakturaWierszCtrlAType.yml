@@ -1,0 +1,22 @@
+JpkFa\Jpk\JPK\FakturaWierszCtrlAType:
+    properties:
+        liczbaWierszyFaktur:
+            expose: true
+            access_type: public_method
+            serialized_name: LiczbaWierszyFaktur
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getLiczbaWierszyFaktur
+                setter: setLiczbaWierszyFaktur
+            type: int
+        wartoscWierszyFaktur:
+            expose: true
+            access_type: public_method
+            serialized_name: WartoscWierszyFaktur
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getWartoscWierszyFaktur
+                setter: setWartoscWierszyFaktur
+            type: float

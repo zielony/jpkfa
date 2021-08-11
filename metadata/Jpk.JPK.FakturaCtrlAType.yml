@@ -1,0 +1,22 @@
+JpkFa\Jpk\JPK\FakturaCtrlAType:
+    properties:
+        liczbaFaktur:
+            expose: true
+            access_type: public_method
+            serialized_name: LiczbaFaktur
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getLiczbaFaktur
+                setter: setLiczbaFaktur
+            type: int
+        wartoscFaktur:
+            expose: true
+            access_type: public_method
+            serialized_name: WartoscFaktur
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getWartoscFaktur
+                setter: setWartoscFaktur
+            type: float

@@ -1,0 +1,22 @@
+JpkFa\DefinicjeTypy\TOsobaNiefizycznaPelnaType:
+    properties:
+        osobaNiefizyczna:
+            expose: true
+            access_type: public_method
+            serialized_name: OsobaNiefizyczna
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/'
+            accessor:
+                getter: getOsobaNiefizyczna
+                setter: setOsobaNiefizyczna
+            type: JpkFa\DefinicjeTypy\TIdentyfikatorOsobyNiefizycznejPelnyType
+        adresSiedziby:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresSiedziby
+            xml_element:
+                namespace: 'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/'
+            accessor:
+                getter: getAdresSiedziby
+                setter: setAdresSiedziby
+            type: JpkFa\DefinicjeTypy\TOsobaNiefizycznaPelnaType\AdresSiedzibyAType

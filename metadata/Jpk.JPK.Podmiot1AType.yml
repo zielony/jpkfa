@@ -1,0 +1,32 @@
+JpkFa\Jpk\JPK\Podmiot1AType:
+    properties:
+        identyfikatorPodmiotu:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentyfikatorPodmiotu
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getIdentyfikatorPodmiotu
+                setter: setIdentyfikatorPodmiotu
+            type: JpkFa\DefinicjeTypy\TIdentyfikatorOsobyNiefizycznej1Type
+        adresPodmiotu:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresPodmiotu
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getAdresPodmiotu
+                setter: setAdresPodmiotu
+            type: JpkFa\DefinicjeTypy\TAdresPolski1Type
+        adresPodmiotu2:
+            expose: true
+            access_type: public_method
+            serialized_name: AdresPodmiotu2
+            xml_element:
+                namespace: 'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/'
+            accessor:
+                getter: getAdresPodmiotu2
+                setter: setAdresPodmiotu2
+            type: JpkFa\DefinicjeTypy\TAdresZagranicznyType

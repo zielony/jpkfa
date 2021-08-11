@@ -1,0 +1,14 @@
+# config.yml
+# Linux Users: PHP Namespaces use back slash \ rather than a forward slash /
+
+xsd2php:
+  namespaces:
+    'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2018/08/24/eD/DefinicjeTypy/': 'JpkFa\DefinicjeTypy'
+    'http://crd.gov.pl/xml/schematy/dziedzinowe/mf/2013/05/23/eD/KodyCECHKRAJOW/': 'JpkFa\KodyCECHKRAJOW'
+    'http://jpk.mf.gov.pl/wzor/2019/09/27/09271/': 'JpkFa\Jpk'
+  destinations_php:
+    'JpkFa': 'src/JpkFa'
+  destinations_jms:
+    'JpkFa': 'metadata'
+  naming_strategy: short # optional and default
+  path_generator: psr4 # optional and default
