@@ -1,6 +1,6 @@
 <?php
 
-namespace JpkFa\Jpk\JPK;
+namespace JpkFa\Jpk\JPK\JPKAType;
 
 /**
  * Class representing FakturaAType

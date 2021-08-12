@@ -1,6 +1,6 @@
 <?php
 
-namespace JpkFa\Jpk\JPK\ZamowienieAType;
+namespace JpkFa\Jpk\JPK\JPKAType\ZamowienieAType;
 
 /**
  * Class representing ZamowienieWierszAType

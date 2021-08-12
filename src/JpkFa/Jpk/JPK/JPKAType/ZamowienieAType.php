@@ -1,6 +1,6 @@
 <?php
 
-namespace JpkFa\Jpk\JPK;
+namespace JpkFa\Jpk\JPK\JPKAType;
 
 /**
  * Class representing ZamowienieAType
@@ -25,7 +25,7 @@ class ZamowienieAType
     /**
      * Szczegółowe pozycje zamówienia lub umowy w walucie, w której wystawiono fakturę zaliczkową
      *
-     * @var \JpkFa\Jpk\JPK\ZamowienieAType\ZamowienieWierszAType[] $zamowienieWiersz
+     * @var \JpkFa\Jpk\JPK\JPKAType\ZamowienieAType\ZamowienieWierszAType[] $zamowienieWiersz
      */
     private $zamowienieWiersz = [
         
@@ -89,9 +89,9 @@ class ZamowienieAType
      * Szczegółowe pozycje zamówienia lub umowy w walucie, w której wystawiono fakturę zaliczkową
      *
      * @return self
-     * @param \JpkFa\Jpk\JPK\ZamowienieAType\ZamowienieWierszAType $zamowienieWiersz
+     * @param \JpkFa\Jpk\JPK\JPKAType\ZamowienieAType\ZamowienieWierszAType $zamowienieWiersz
      */
-    public function addToZamowienieWiersz(\JpkFa\Jpk\JPK\ZamowienieAType\ZamowienieWierszAType $zamowienieWiersz)
+    public function addToZamowienieWiersz(\JpkFa\Jpk\JPK\JPKAType\ZamowienieAType\ZamowienieWierszAType $zamowienieWiersz)
     {
         $this->zamowienieWiersz[] = $zamowienieWiersz;
         return $this;
@@ -128,7 +128,7 @@ class ZamowienieAType
      *
      * Szczegółowe pozycje zamówienia lub umowy w walucie, w której wystawiono fakturę zaliczkową
      *
-     * @return \JpkFa\Jpk\JPK\ZamowienieAType\ZamowienieWierszAType[]
+     * @return \JpkFa\Jpk\JPK\JPKAType\ZamowienieAType\ZamowienieWierszAType[]
      */
     public function getZamowienieWiersz()
     {
@@ -140,7 +140,7 @@ class ZamowienieAType
      *
      * Szczegółowe pozycje zamówienia lub umowy w walucie, w której wystawiono fakturę zaliczkową
      *
-     * @param \JpkFa\Jpk\JPK\ZamowienieAType\ZamowienieWierszAType[] $zamowienieWiersz
+     * @param \JpkFa\Jpk\JPK\JPKAType\ZamowienieAType\ZamowienieWierszAType[] $zamowienieWiersz
      * @return self
      */
     public function setZamowienieWiersz(array $zamowienieWiersz)

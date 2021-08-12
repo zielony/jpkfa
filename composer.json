@@ -17,6 +17,7 @@
     "goetas-webservices/xsd2php-runtime": "0.*"
   },
   "require-dev": {
-    "goetas-webservices/xsd2php": "0.*"
+    "goetas-webservices/xsd2php": "0.*",
+    "fzaninotto/faker": "^1.9"
   }
 }
